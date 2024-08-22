@@ -1,0 +1,24 @@
+{
+    "drivers": {
+        "url": "https://api.openf1.org/v1/drivers",
+        "frequency": "Once",
+        "cdc": "Yes",
+        "type": "Master",
+        "extractPath": "/Users/ankitkhati/Learning/Projects/PyProjects/Project-Initial/data/drivers/",
+        "options": [
+            {
+                "driver_number": 1
+            },
+            {
+                "driver_number": 1
+            }
+        ],
+        "offsetTimestamp": "2024/8/6/2118"
+    },
+    "intervals": {
+        "url": "https://api.openf1.org/v1/intervals",
+        "frequency": "Once",
+        "cdc": "Yes",
+        "type": "Master"
+    }
+}
